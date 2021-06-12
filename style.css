@@ -1,0 +1,118 @@
+body{
+    margin: 5px ;
+    width: auto;
+    background-color:rgb(231, 219, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.heading{
+    text-align: center;
+    background-color: rgb(20, 90, 220);
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: xx-large;
+    
+   }
+   .a{
+       float: left;
+       height: 170px;
+       width: 170px;
+       margin: 35px;
+       clip-path: circle();
+   }
+   .ab{
+       background-color: rgb(198, 174, 245);
+       height: 180px;
+       padding: 20px;
+       margin: 25px;
+       border: solid rgb(0, 0, 0);
+       border-radius: 15px;
+       font-size: 18px;
+      
+   }
+   .b{
+    float: right;
+       height: 170px;
+       width: 170px;
+       margin: 35px;
+       clip-path: circle();
+}
+.bc{
+    background-color: rgb(241, 176, 209);
+    height: 180px;
+    padding: 20px;
+    margin: 25px;
+    border: solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    
+}
+.c{
+    float: left;
+    height: 170px;
+    width: 170px;
+    margin: 35px;
+    clip-path: circle();
+}
+.cd{
+    background-color: rgb(191, 255, 166);
+       height: 180px;
+       padding: 20px;
+       margin: 25px;
+       border: solid black;
+       border-radius: 15px;
+       font-size: 18px;
+       
+}
+.d{
+    float: right;
+    height: 170px;
+    width: 170px;
+    margin: 35px;
+    clip-path: circle();
+}
+.de{
+    background-color: rgb(124, 195, 236);
+       height: 180px;
+       padding: 20px;
+       margin: 25px;
+       border: solid black;
+       border-radius: 15px;
+       font-size: 18px;
+       
+}
+.e{
+    float: left;
+    height: 170px;
+    width: 170px;
+    margin: 35px;
+    clip-path: circle();
+}
+.ef{
+    background-color: rgb(195, 148, 238);
+       height: 180px;
+       padding: 20px;
+       margin: 25px;
+       border: solid black;
+       border-radius: 15px;
+       font-size: 18px;
+   
+}
+@media screen and (max-width:700px) {
+    .a,.b,.c,.d,.e{
+        height: 100px;
+        width: 100px;
+
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .ab,.bc,.cd,.de,.ef{
+        font-size: 9px;
+        height: 130px;
+
+    }
+    
+}
